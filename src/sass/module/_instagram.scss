@@ -1,0 +1,23 @@
+@use "global" as *;
+
+.instagram {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  height: rem(1500);
+  overflow-y: scroll;
+
+  @include mq(md) {
+    // 
+  }
+}
+
+.instagram-media {
+  flex-basis: 100%;
+
+  @include mq(md) {
+    flex-basis: 20%;
+    // 
+  }
+}
